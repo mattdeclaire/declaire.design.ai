@@ -1,26 +1,26 @@
 ---
-title: Home
-location: TBD
-year: 2024
-coverImage: /work/home/fucsmsog.jpg
+title: Modern Home
+location: Benicia, CA
+year: 2022
+coverImage: fucsmsog.jpg
 images:
-  - src: /work/home/fucsmsog.jpg
+  - src: fucsmsog.jpg
     alt: ""
-  - src: /work/home/grkvmorq.jpg
+  - src: grkvmorq.jpg
     alt: ""
-  - src: /work/home/mwdnjkjg-1.jpg
+  - src: mwdnjkjg-1.jpg
     alt: ""
-  - src: /work/home/mwdnjkjg.jpg
+  - src: mwdnjkjg.jpg
     alt: ""
-  - src: /work/home/pmklg5mq.jpg
+  - src: pmklg5mq.jpg
     alt: ""
-  - src: /work/home/taj5qt1g.jpg
+  - src: taj5qt1g.jpg
     alt: ""
-  - src: /work/home/vlok3xyw.jpg
+  - src: vlok3xyw.jpg
     alt: ""
-  - src: /work/home/xxds2r5w.jpg
+  - src: xxds2r5w.jpg
     alt: ""
-  - src: /work/home/buxdkmaq.jpg
+  - src: buxdkmaq.jpg
     alt: ""
 featured: false
 services: []

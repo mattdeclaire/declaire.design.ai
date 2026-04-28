@@ -25,8 +25,11 @@ function readProject(slug: string): Project {
     location: data.location,
     year: data.year,
     description: content.trim(),
-    coverImage: data.coverImage,
-    images: data.images ?? [],
+    coverImage: `/work/${slug}/${data.coverImage}`,
+    images: (data.images ?? []).map((img: { src: string; alt: string }) => ({
+      ...img,
+      src: `/work/${slug}/${img.src}`,
+    })),
     featured: data.featured ?? false,
     services: data.services ?? [],
   };

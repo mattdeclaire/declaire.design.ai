@@ -2,9 +2,9 @@
 title: Hanh
 location: TBD
 year: 2024
-coverImage: /work/hanh/img_2346.jpg
+coverImage: img_2346.jpg
 images:
-  - src: /work/hanh/img_2346.jpg
+  - src: img_2346.jpg
     alt: ""
 featured: false
 services: []
