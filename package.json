@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -f .next/lock && next build && next-export-optimize-images",
+    "preview": "npm run build && npx serve out",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
     "next": "16.1.6",
+    "next-export-optimize-images": "^4.7.0",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },

@@ -1,5 +1,4 @@
-import Image from "next/image";
-import headshot from './katie.jpg';
+import Image from "next-export-optimize-images/image";
 
 export function BioSection() {
   return (
@@ -8,7 +7,7 @@ export function BioSection() {
         {/* Photo */}
         <div className="relative aspect-portrait overflow-hidden bg-surface">
           <Image
-            src={headshot}
+            src="/images/katie.jpg"
             alt="Katie DeClaire, interior designer"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"

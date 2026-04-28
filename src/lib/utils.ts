@@ -14,7 +14,7 @@ export interface Project {
   services: string[];
 }
 
-const workDir = path.join(process.cwd(), "work");
+const workDir = path.join(process.cwd(), "public", "work");
 
 function readProject(slug: string): Project {
   const raw = fs.readFileSync(path.join(workDir, slug, "project.md"), "utf-8");

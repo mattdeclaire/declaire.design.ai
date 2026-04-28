@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import { Button } from "@/components/ui/Button";
 
 export function Hero() {
@@ -24,7 +24,7 @@ export function Hero() {
       {/* Image panel */}
       <div className="relative w-full md:w-[60%] aspect-landscape md:aspect-auto order-1 md:order-2">
         <Image
-          src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=80"
+          src="/images/asset.jpg"
           alt="A refined interior designed by DeClaire Design"
           fill
           priority
