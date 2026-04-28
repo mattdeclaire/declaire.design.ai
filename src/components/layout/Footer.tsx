@@ -12,7 +12,9 @@ export function Footer() {
         {/* Left: brand */}
         <div>
           <p className="font-serif italic text-lg text-heading">DeClaire Design</p>
-          <p className="text-sm text-muted mt-1">Interior Design Studio</p>
+          <p className="text-sm text-muted mt-1">
+            <a href="mailto:katie@declaire.design">katie@declaire.design</a>
+          </p>
         </div>
 
         {/* Right: nav + copyright */}
