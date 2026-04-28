@@ -11,9 +11,7 @@ export function Hero() {
             DeClaire Design
           </p>
           <h1 className="font-serif text-display text-heading leading-none mb-6">
-            Spaces
-            <br />
-            <em>That Speak</em>
+            Professional design for everyday living.
           </h1>
           <p className="text-body leading-relaxed mb-10 text-base max-w-xs">
             Considered interior design for clients who value restraint,
@@ -24,7 +22,7 @@ export function Hero() {
       </div>
 
       {/* Image panel */}
-      <div className="relative w-full md:w-[58%] aspect-landscape md:aspect-auto order-1 md:order-2">
+      <div className="relative w-full md:w-[60%] aspect-landscape md:aspect-auto order-1 md:order-2">
         <Image
           src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=80"
           alt="A refined interior designed by DeClaire Design"
