@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(xargs:*)",
+      "Read(//Users/matt/Code/declaire.design.ai/public/work/**)",
+      "Bash(curl:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/matt/Code/declaire.design.ai/work"
+    ]
+  }
+}
