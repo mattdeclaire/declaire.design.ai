@@ -22,7 +22,7 @@ images:
     alt: ""
   - src: buxdkmaq.jpg
     alt: ""
-featured: false
+featured: true
 services: []
 ---
 

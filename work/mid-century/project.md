@@ -1,6 +1,6 @@
 ---
-title: Tera Murray
-location: TBD
+title: Mid-Century
+location: San Jose, CA
 year: 2024
 coverImage: 10df8e85-3597-46dd-817c-e7d69cc40c53_1_105_c.jpeg
 images:
