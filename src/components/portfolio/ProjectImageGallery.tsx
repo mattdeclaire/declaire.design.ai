@@ -41,20 +41,19 @@ export function ProjectImageGallery({ images, title }: ProjectImageGalleryProps)
 
   return (
     <>
-      {/* Stacked images */}
-      <div className="mt-10 space-y-3">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-3">
         {images.map((image, i) => (
           <button
             key={i}
             onClick={() => setLightboxIndex(i)}
-            className="relative block w-full aspect-landscape overflow-hidden bg-surface cursor-zoom-in group"
+            className="relative aspect-square overflow-hidden bg-surface cursor-zoom-in group"
             aria-label={`Open fullscreen: ${image.alt}`}
           >
             <Image
               src={image.src}
               alt={image.alt}
               fill
-              sizes="(max-width: 1024px) 100vw, 66vw"
+              sizes="(max-width: 1024px) 33vw, 22vw"
               className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
               priority={i === 0}
             />
