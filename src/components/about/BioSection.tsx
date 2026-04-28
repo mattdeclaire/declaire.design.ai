@@ -1,4 +1,5 @@
 import Image from "next/image";
+import headshot from './katie.jpg';
 
 export function BioSection() {
   return (
@@ -7,7 +8,7 @@ export function BioSection() {
         {/* Photo */}
         <div className="relative aspect-portrait overflow-hidden bg-surface">
           <Image
-            src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80"
+            src={headshot}
             alt="Katie DeClaire, interior designer"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
@@ -25,20 +26,19 @@ export function BioSection() {
           </h2>
           <div className="space-y-5 text-body leading-relaxed text-base">
             <p className="font-serif italic text-xl text-heading leading-snug">
-              &ldquo;Good design is invisible — it creates a feeling before it
+              &ldquo;Good design is invisible. It creates a feeling before it
               announces itself.&rdquo;
             </p>
             <p>
               Katie DeClaire is a Benicia, California-based interior designer with over
-              a decade of experience working across residential, commercial, and
-              hospitality projects. Trained at the New York School of Interior
-              Design and having spent formative years at studios in London and
+              a decade of experience working with residential projects. Trained at the
+              New York School of Interior Design and having spent formative years at studios in London and
               Copenhagen, she brings an international perspective to each
               commission.
             </p>
             <p>
               Her practice is intentionally small and selective. Each project
-              receives Katie&apos;s direct attention from concept through
+              receives Katie's direct attention from concept through
               installation — no handoffs, no diluted vision. Clients describe
               the process as collaborative and unhurried; the results as spaces
               that feel both distinctly designed and deeply personal.

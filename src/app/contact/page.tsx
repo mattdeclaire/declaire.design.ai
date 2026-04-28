@@ -27,7 +27,7 @@ export default function ContactPage() {
           </h2>
           <p className="text-body leading-relaxed text-base max-w-prose mb-8">
             DeClaire Design takes on a limited number of projects each year.
-            If you&apos;d like to discuss yours, send an email.
+            If you'd like to discuss yours, send an email.
           </p>
           <a
             href="mailto:katie@declaire.design"
